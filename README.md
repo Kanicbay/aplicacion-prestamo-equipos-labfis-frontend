@@ -1,2 +1,6 @@
-# aplicacion-prestamo-equipos-labfis
-Desarrollo de una aplicación móvil para el préstamo de equipos en el laboratorio de la facultad de sistemas
+# Aplicacion Prestamo Equipos Labfis
+Desarrollo de una aplicación móvil en flutter para el préstamo de equipos en el Laboratorio de la Facultad de Sistemas
+
+Manual de uso
+- En proceso
+
