@@ -1,5 +1,6 @@
 import 'package:app_prestamo_equipos/providers/information_device.dart';
 import 'package:app_prestamo_equipos/screens/loan_information_screen.dart';
+import 'package:app_prestamo_equipos/screens/notifications_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -25,6 +26,8 @@ class MyApp extends StatelessWidget {
           MainWidget.routeName: (context) => const MainWidget(),
           DeviceLoanInformationScreen.routeName: (context) =>
               const DeviceLoanInformationScreen(),
+          NotificationsScreen.routeName: (context) =>
+              const NotificationsScreen(),
         },
       ),
     );
@@ -45,6 +48,7 @@ class _MainWidgetState extends State<MainWidget> {
 
   final List<Widget> _mainWidgets = const [
     DeviceLoanInformationScreen(),
+    NotificationsScreen(),
   ];
 
   void _onTapItem(int index) {

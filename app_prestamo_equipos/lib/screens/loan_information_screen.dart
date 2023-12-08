@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DeviceLoanInformationScreen extends StatefulWidget {
-  static const routeName = '/informationDevice';
+  static const routeName = '/deviceLoanInformation';
   const DeviceLoanInformationScreen({super.key});
 
   @override
